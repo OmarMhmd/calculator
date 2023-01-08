@@ -53,7 +53,7 @@ function implement(value,index=0)
         element1[0].value=0;
         op=null;
         y=null;
-        document.getElementsByTagName("button").remove("pressed");
+        // document.getElementsByTagName("button").remove("pressed");
     }
     else if((value>="0")&&(value<="9"))
     {
