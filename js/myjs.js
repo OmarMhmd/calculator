@@ -46,15 +46,14 @@ function zeroText()
 function implement(value,index=0)
 {
     // document.getElementsByTagName("button")[index].classList.add("pressed");
-    if(value=="C")
+    if(value=='C')
     {
         // zeroText();
-        console.log("yeeessss");
         element1[0].value=0;
         op=null;
         y=null;
-        console.log(index2);
-        document.querySelectorAll("button").classList.remove("pressed");
+   
+        // document.querySelectorAll("button").classList.remove("pressed");
     }
     else if((value>="0")&&(value<="9"))
     {
