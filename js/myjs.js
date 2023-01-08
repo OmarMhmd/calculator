@@ -52,8 +52,7 @@ function implement(value,index=0)
         element1[0].value=0;
         op=null;
         y=null;
-   
-        // document.querySelectorAll("button").classList.remove("pressed");
+        document.querySelectorAll("button").classList.remove("pressed");
     }
     else if((value>="0")&&(value<="9"))
     {
