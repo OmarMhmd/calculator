@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body
 {
     background-color: #ccc;
@@ -7,14 +10,12 @@ body
 
 .container
 {
-    background-color: #ddd;
-    width: 280px;
-    height: 350px;
+   background-color: #ddd;
+    width: 300px;
+    height: 376px;
     margin: 0 auto;
     padding: 15px;
-}
-#calc
-{
+    border-radius: 5px;
 }
 input[type=text]
 {
@@ -67,4 +68,41 @@ color:#fff;
     background-color: blue;
     color: #fff;
     transition-delay: 0.1s
+}
+@media only screen and (max-width: 400px) {
+    #frm
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .container
+    {
+    width: 100%;
+
+    }
+    input[type=text]
+    {
+    width: 370px;
+    }
+    button
+{
+    width: 55px;
+    font-size: 16px;
+    padding: 16px;
+}
+#equal{
+    width:125px;
+    }
+button:active
+{
+    background-color: blue;
+    color: #fff;
+    transition-delay: 0.1s
+
+}
+
 }

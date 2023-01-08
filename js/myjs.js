@@ -47,7 +47,7 @@ function implement(value,index=0)
 {
     if(value=="C")
     {
-        zeroText()
+        zeroText();
         op=null;
         y=null;
         document.getElementsByTagName("button").remove("pressed");
