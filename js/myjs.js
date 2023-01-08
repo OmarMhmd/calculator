@@ -54,7 +54,7 @@ function implement(value,index=0)
         op=null;
         y=null;
         console.log(index2);
-        document.getElementsByTagName("button")[index2].remove("pressed");
+        document.querySelectorAll("button").remove("pressed");
     }
     else if((value>="0")&&(value<="9"))
     {
