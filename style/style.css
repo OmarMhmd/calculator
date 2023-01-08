@@ -48,14 +48,7 @@ button
     border: none;
     color:blue;
 }
-button:hover
-{
-   cursor: pointer;
-   background-color: blue;
-   color: #fff;
-   transition-delay: 0.1s
-   
-}
+
 #equal{
     
 background-Color:blue;
@@ -102,13 +95,8 @@ button:active
 {
     background-color: blue;
     color: #fff;
-    transition-delay: 0.1s
-}
-button:focus
-{
-    background-color:#f0f0f0;
-    color: blue;
-    
+
+    cursor: pointer;
 }
 
 }
