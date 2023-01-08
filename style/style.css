@@ -54,6 +54,7 @@ button:hover
    background-color: blue;
    color: #fff;
    transition-delay: 0.1s
+   
 }
 #equal{
     
@@ -102,7 +103,12 @@ button:active
     background-color: blue;
     color: #fff;
     transition-delay: 0.1s
-
+}
+button:focus
+{
+    background-color:#f0f0f0;
+    color: blue;
+    
 }
 
 }

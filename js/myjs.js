@@ -45,9 +45,12 @@ function zeroText()
 }
 function implement(value,index=0)
 {
+    // document.getElementsByTagName("button")[index].classList.add("pressed");
     if(value=="C")
     {
-        zeroText();
+        // zeroText();
+        console.log("yeeessss");
+        element1[0].value=0;
         op=null;
         y=null;
         document.getElementsByTagName("button").remove("pressed");
